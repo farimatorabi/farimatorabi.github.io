@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Farima Torabi Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,600,900|Source+Sans+Pro:300,600,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <header>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact Me</a></li>
+
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro" id='greeting'>
+                Hi, I am <strong id="name"></strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro" id="sub"></p>
+            <img src="img/cv_pic.jpg" alt="A cv picture of Farima Torabi" class="intro__img">
+        </section> <!-- / Introduction-->
+        <!-- About Me -->
+        <section class="about-me" id="about">
+            <h2 class="section__title section__title--about">Who I am</h2>
+            <p class="section__subtitle section__subtitle--about"></p>
+
+            <div class="about-me__body">
+                <p>I'm Farima, 22 years old, been to Finland for 2,5 years, passionate about Front-end Software Development, designing & photography, and self-improvement.</p>
+                <p> I'm a bachelor's graduate of LAB University of Applied Sciences in Business Information Technology. I specialize in front-end development and, I have worked with HTML, CSS, and JavaScript to complete past projects. I’m learning and very eager to deepen my knowledge of modern frontend frameworks like React.</p>
+                <p>The idea of being able to talk, in the near future, with the customer, engineering their wishes all the way to actual implementation in a pragmatic way, and being encouraged and appreciated at work is what I find motivating and exciting to look for.</p>
+                <p class="contactMe">I would be glad to hear from you. </p>
+                <a href="#contact" class="btn">Contact Me</a>
+            </div>
+        </section>  <!-- / About me-->
+
+
+        <!-- My Work -->
+
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work">My Work</h2>
+            <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+
+            <div class="portfolio">
+                <!-- Portfolio item 01 -->
+                <a href="https://farimatorabi.github.io/Beer-app/" target="_blank" rel="noopener noreferrer" class="portfolio__item">
+                    <img src="img/beer.png" alt="" class="portfolio__img">
+                </a>
+
+                <!-- Portfolio item 02 -->
+                <a href="https://farimatorabi.github.io/Pacman-game/" target="_blank" rel="noopener noreferrer" class="portfolio__item">
+                    <img src="img/pacman.png" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 03 -->
+                <a href="https://farimatorabi.github.io/Snake-game/" target="_blank" rel="noopener noreferrer" class="portfolio__item">
+                    <img src="img/snake.png" alt="" class="portfolio__img">
+                </a>
+
+                <!-- Portfolio item 04 -->
+                <a href="https://farimatorabi.github.io/Pokedex/" target="_blank" rel="noopener noreferrer" class="portfolio__item">
+                    <img src="img/pokedex.png" alt="" class="portfolio__img">
+                </a>
+
+                <!-- Portfolio item 05 -->
+                <a href="https://farimatorabi.github.io/Random-jokes/" target="_blank" rel="noopener noreferrer" class="portfolio__item">
+                    <img src="img/random-jokes.png" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 06 -->
+                <a href="https://farimatorabi.github.io/Living-the-simple-life/" target="_blank" rel="noopener noreferrer" class="portfolio__item">
+                    <img src="img/simple.png" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 07 -->
+                <a href="https://farimatorabi.github.io/emoji-app/" target="_blank" rel="noopener noreferrer" class="portfolio__item">
+                    <img src="img/emoji.png" alt="" class="portfolio__img">
+                </a>
+
+                 <!-- Portfolio item 08 -->
+                 <a href="https://farimatorabi.github.io/become-a-bbq-master/" target="_blank" rel="noopener noreferrer" class="portfolio__item">
+                    <img src="img/BBQ.png" alt="" class="portfolio__img">
+                </a>
+                
+                 <!-- Portfolio item 09 -->
+                 <a href="https://farimatorabi.github.io/Personal-diary/" target="_blank" rel="noopener noreferrer" class="portfolio__item">
+                    <img src="img/diary.png" alt="" class="portfolio__img">
+                </a>
+
+            </div>
+        </section> <!-- / My Work-->
+    
+        <!-- Footer -->
+        <footer class="footer" id="contact">
+            <a href="mailto:farima.torabi@gmail.com" class="footer__link">
+                <i class="fas fa-at"></i>  
+                farima.torabi@gmail.com
+            </a>     
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" target="blank"href="https://github.com/farimatorabi">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" taget="blank" href="https://www.linkedin.com/in/farimatorabi/">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" taget="blank" href="https://twitter.com/farimatorabi">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+        
+        <script src="index.js"></script>
+
+    </body>
+</html>
