@@ -202,7 +202,6 @@ header {
 
 .nav__link:hover {
     color: var(--clr-accent);
-
 }
 
 .nav-toggle {
@@ -216,7 +215,6 @@ header {
     z-index: 1000;
     width: 2em;
 }
-
 
 .nav-open .nav {
     transform: translateX(0);
@@ -240,7 +238,6 @@ header {
 .nav-open .hamburger::after {
     opacity: 0;
 }
-
 
 .hamburger {
     display: block;
@@ -267,7 +264,6 @@ header {
     right: 0;
 }
 
-
 .hamburger::before { top: 8px;}
 .hamburger::after {bottom: 8px;}
 
@@ -291,7 +287,6 @@ header {
     box-shadow: var(--bs);
 }
 
-
 .portfolio-img {
     min-height: 250px;
     -o-object-fit: cover;
@@ -308,9 +303,8 @@ header {
 .section__subtitle--intro {
     display: inline-block;
     width: 100%;
-    height: 4vh;
+    height: 5vh;
 }
-
 
 @media (min-width: 800px) {
     .intro {
@@ -333,7 +327,6 @@ header {
         position: relative;
         z-index: 2;
     }
-
 
     .section__subtitle--intro {
         align-self: start;
