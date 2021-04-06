@@ -278,10 +278,7 @@ header {
         height: 100%;
         top:0;
     }
-
-}
-
-
+} 
 
 /* Intro Section */
 
@@ -314,8 +311,6 @@ header {
 
 
 @media (min-width: 800px) {
-
-
     .intro {
         display: grid;
         width: -webkit-min-content;
@@ -343,7 +338,8 @@ header {
         grid-column: -1 / 1;
         grid-row: 2;
         text-align: right;
-        position: relative;
+        position: absolute;
+        top: 2rem;
         left: -1em;
         width: calc(100% + 1em) ;
         height: -webkit-fit-content;
